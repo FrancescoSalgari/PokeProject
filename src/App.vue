@@ -1,28 +1,33 @@
 <script setup>
-//import { RouterLink, RouterView } from 'vue-router'
-//import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-     </div> -->
-  </header>
-  <!--buenos dias-->
-  <!-- buon suare -->
-  <!-- Grazie octi <3-->
-  <RouterView />
+  <template>
+  <v-app>
+    <v-app-bar app>
+      <v-toolbar-title>Sito dei Pokémon</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn to="/" text>Home</v-btn>
+      <v-btn to="/about" text>About</v-btn>
+      <v-btn to="/search" text>Search</v-btn>
+      <v-btn to="/add" text>Add Pokémon</v-btn>
+      <v-btn to="/profile" text>Profile</v-btn>
+    </v-app-bar>
+    <v-main>
+      <router-view></router-view>
+    </v-main>
+  </v-app>
 </template>
 
-<style scoped>
+<script>
+export default {
+  name: 'App'
+};
+</script>
+</template>
+
+<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -84,4 +89,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
