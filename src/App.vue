@@ -16,12 +16,6 @@
       </nav>
      </div> -->
   </header>
-  <!--buenos dias-->
-  <!-- buon suare -->
-  <!-- Grazie octi <3-->
-  <!--Funziona? -->
-  <!-- ultima modifica-->
-   <!--CI PROVIAMO ANCORA-->
   <RouterView />
 </template>
 
