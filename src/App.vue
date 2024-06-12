@@ -1,7 +1,17 @@
-<script setup>
-//import { RouterLink, RouterView } from 'vue-router'
-//import HelloWorld from './components/HelloWorld.vue'
+<script>
+import { onMounted } from 'vue';
+import app from './firebase';
+
+export default {
+    name: 'App',
+    setup() {
+        onMounted(() => {
+            console.log('Firebase App Initialized:', app);
+        });
+    }
+};
 </script>
+
 
 <template>
   <header>
