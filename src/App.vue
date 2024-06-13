@@ -1,17 +1,16 @@
 <script>
-import { onMounted } from 'vue';
-import app from './firebase';
+import { onMounted } from 'vue'
+import app from './firebase'
 
 export default {
-    name: 'App',
-    setup() {
-        onMounted(() => {
-            console.log('Firebase App Initialized:', app);
-        });
-    }
-};
+  name: 'App',
+  setup() {
+    onMounted(() => {
+      console.log('Firebase App Initialized:', app)
+    })
+  }
+}
 </script>
-
 
 <template>
   <header>
@@ -25,6 +24,8 @@ export default {
         <RouterLink to="/about">About</RouterLink>
       </nav>
      </div> -->
+
+    <!--  prova -->
   </header>
   <RouterView />
 </template>
