@@ -1,6 +1,6 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
-import PokemonList from '../components/PokemonList.vue'
+import PokemonCard from '@/components/PokemonCard.vue'
 
 
 </script>
@@ -8,6 +8,6 @@ import PokemonList from '../components/PokemonList.vue'
 <template>
   <main>
     <TheWelcome/>
-    <PokemonList/>
+    <PokemonCard/>
   </main>
 </template>
