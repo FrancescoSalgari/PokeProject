@@ -7,7 +7,7 @@ import PokemonList from '../components/PokemonList.vue'
 
 <template>
   <main>
-    <TheWelcome />
+    <TheWelcome/>
     <PokemonList/>
   </main>
 </template>
